@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseClicked="#handleButtonAction" onMouseEntered="#enter" onMouseExited="#exite" onMouseMoved="#moved" prefHeight="434.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+      <Label fx:id="lblXY" layoutX="14.0" layoutY="412.0" text="-,-" />
+      <ImageView fx:id="ko" fitHeight="72.0" fitWidth="91.0" layoutX="203.0" layoutY="113.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@11134335211617275951-128.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="168.0" layoutY="6.0" text="SoRoSh App" textFill="#a76b96">
+         <font>
+            <Font name="French Script MT" size="33.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
